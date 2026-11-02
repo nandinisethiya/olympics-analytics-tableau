@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Olympic Analytics | Global Olympic Sports Performance</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="#home">O<span>LYMPIC</span> ANALYTICS</a>
+        <nav>
+            <a href="#overview">Overview</a>
+            <a href="#explore">Explore</a>
+            <a href="#datasets">Datasets</a>
+        </nav>
+        <a class="git" href="https://github.com/nandinisethiya/olympics-analytics-tableau" target="_blank">GitHub ↗</a>
+    </header>
+    <main>
+    <section class="hero" id="home">
+        <p class="eyebrow">TABLEAU PUBLIC · SPORTS DATA ANALYTICS</p>
+        <h1>GLOBAL OLYMPIC<br><em>SPORTS PERFORMANCE</em><br>ANALYSIS</h1>
+        <p class="lead">Explore Olympic medal achievements, athlete participation, regional performance and host-country patterns through interactive data.</p>
+        <div class="actions">
+            <a class="primary" href="#explore">Explore dashboards ↓</a>
+            <a class="secondary" href="https://drive.google.com/file/d/1ZUveLNFejd0oSZ3FRbe0jbJsUP4dyx0p/view?usp=sharing" target="_blank" rel="noopener">Watch project demo ↗</a>
+            <a class="secondary" href="https://github.com/nandinisethiya/olympics-analytics-tableau" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </div>
+        <div class="meta">
+            <span>TEAM ID<strong>EN25CS3030037</strong></span>
+            <span>PLATFORM<strong>Tableau + CSV datasets</strong></span>
+            <span>PROJECT OUTPUT<strong>2 Dashboards · 1 Story</strong></span>
+        </div>
+    </section>
+
+    <section class="section" id="overview">
+        <p class="eyebrow">01 / PROJECT OVERVIEW</p>
+        <div class="two">
+            <h2>Turning Olympic records into <em>clearer insights.</em></h2>
+            <p>This project connects four institutional datasets to explore medal performance across countries, sports, regions, years and host nations. Two interactive Tableau dashboards and a two-scene Story make the analysis easier to explore and understand.</p>
+        </div>
+        <div class="stats">
+            <div>
+                <b>4</b>
+                <span>CSV datasets</span>
+            </div>
+            <div>
+                <b>8</b>
+                <span>Visualizations</span>
+            </div>
+            <div>
+                <b>2</b>
+                <span>Dashboards</span>
+            </div>
+            <div>
+                <b>2</b>
+                <span>Story scenes</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section explorer" id="explore">
+        <p class="eyebrow">02 / INTERACTIVE EXPLORER</p>
+        <div class="explore-head">
+            <div>
+                <h2>Explore the analysis.</h2>
+                <p>Choose a dashboard or follow the Tableau Story.</p>
+            </div>
+            <div class="tabs">
+                <button class="active" data-group="dashboards">Dashboards</button>
+                <button data-group="stories">Tableau Story</button>
+            </div>
+        </div>
+        <div class="layout">
+            <aside id="viewList"></aside>
+            <article class="viewer">
+                <div class="bar">
+                    <span id="kind">DASHBOARD</span>
+                    <a id="openLink" target="_blank" rel="noopener">Open in Tableau ↗</a>
+                </div>
+                <div class="viewtitle">
+                    <h3 id="viewTitle"></h3>
+                    <p id="viewDesc"></p>
+                </div>
+                <div id="vizBox" class="vizbox"></div>
+                <p class="hint">If the view does not load, select “Open in Tableau”. Tableau Public and an internet connection are required.</p>
+            </article>
+        </div>
+    </section>
+    <section class="section" id="datasets">
+        <p class="eyebrow">03 / DATA FOUNDATION</p>
+        <div class="two">
+            <h2>Four datasets.<br><em>One connected view.</em></h2>
+            <p>The CSV files are connected directly in Tableau, with dataset relationships configured to support the analysis.</p>
+        </div>
+        <div class="cards">
+            <div>
+                <small>01</small><h3>alltime_country_rankings.csv</h3>
+                <p>Country rankings and historical medal summary fields.</p>
+                <b>60 rows · 13 fields</b>
+            </div>
+        <div>
+            <small>02</small><h3>athletes.csv</h3>
+            <p>Athlete records and attributes such as gender, age, sport and NOC code.</p>
+            <b>8,000 rows · 26 fields</b>
+        </div>
+        <div>
+            <small>03</small><h3>games_summary.csv</h3>
+            <p>Olympic Games information, including year, host and season.</p>
+            <b>18 rows · 10 fields</b>
+        </div>
+        <div>
+            <small>04</small><h3>medal_results.csv</h3>
+            <p>Medal-result records and associated Games details.</p>
+            <b>910 rows · 19 fields</b>
+        </div>
+    </div>
+    <a class="dataset-link" href="https://github.com/nandinisethiya/olympics-analytics-tableau" target="_blank" rel="noopener">Open project repository ↗</a>
+    </section>
+<section class="closing"><p class="eyebrow">FROM DATA TO DISCOVERY</p><h2>See the bigger picture<br>behind the medals.</h2><a class="primary" href="#explore">Start exploring ↑</a></section>
+</main><footer><b>GLOBAL OLYMPIC SPORTS PERFORMANCE ANALYSIS</b><span>Team ID: EN25CS3030037</span><a href="https://github.com/nandinisethiya/olympics-analytics-tableau" target="_blank">GitHub ↗</a></footer>
+<script src="main.js"></script></body></html>
