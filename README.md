@@ -41,7 +41,7 @@ Open `http://127.0.0.1:5000`. Pages: `/` (home), `/dashboard`, `/story`.
 ## Links
 - Story: https://public.tableau.com/app/profile/nandini.sethiya5900/viz/global_olympic_sports_performance_analytics/OLYMPICPERFORMANCESTORY?publish=yes
 - Demo link:
-- https://drive.google.com/file/d/1ZUveLNFejd0oSZ3FRbe0jbJsUP4dyx0p/view?usp=sharing
+https://drive.google.com/file/d/1ZUveLNFejd0oSZ3FRbe0jbJsUP4dyx0p/view?usp=sharing
 
 ## Limitations
 Static data (no live refresh), no year column in `athletes.csv`, and no forecasting.
